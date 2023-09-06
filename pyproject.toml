@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project23-custom-user"
+version = "0.1.0"
+description = "\"this is a package project\""
+authors = ["Your Name <you@example.com>"]
+license = "\"MIT\""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.5"
+pillow = "^10.0.0"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
